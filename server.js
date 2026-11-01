@@ -1,5 +1,6 @@
 
 const express = require("express");
+console.log("Server.js file is running");
 const connectToDatabase = require("./database");
 
 const app = express();
@@ -80,6 +81,7 @@ app.delete("/books/:bookId/", async (request, response) => {
 const initializeDBAndServer = async () => {
     try {
         db = await connectToDatabase();
+        console.log("Database connected successfully");
 
         app.listen(PORT, "0.0.0.0", () => {
             console.log(`Server Running on port ${PORT}`);
