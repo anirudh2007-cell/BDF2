@@ -1,6 +1,6 @@
 # Lab 2 – SQLite Database and CRUD Operations
 
-**Live Deployment:** https://bdf2-sqlite-crud.onrender.com
+**Live Deployment:**https://bdf2-sqlite-crud.onrender.com/books/
 
 **GitHub Repository:** https://github.com/anirudh2007-cell/BDF2
 
